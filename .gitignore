@@ -2,6 +2,7 @@
 *.user
 *.pro.user
 *.obj
+*.o
 *.aps
 *.pch
 *.vspscc
@@ -14,6 +15,7 @@
 *.ilk
 *.log
 *.sbr
+moc_*
 [Bb]in
 bin/
 [Dd]ebug*/
