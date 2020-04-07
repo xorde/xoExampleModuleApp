@@ -3,7 +3,7 @@
 #include <QGridLayout>
 #include <QLabel>
 
-ExampleSlidersComponent::ExampleSlidersComponent(QObject *parent) : ComponentBase("ExampleSlidersComponent", 0x01010101, "", parent)
+ExampleSlidersComponent::ExampleSlidersComponent(QObject *parent) : ComponentBase("ExampleSlidersComponent", "", parent)
 {
     description = "Two output sliders, two input sliders."
                   "- 'out1' works by request."
@@ -11,7 +11,6 @@ ExampleSlidersComponent::ExampleSlidersComponent(QObject *parent) : ComponentBas
                   "."
                   "- 'in1' works by change event"
                   "- 'in2' works by receive event";
-
 
     setIcon(":/images/arrow-left-right-bold.png");
 
