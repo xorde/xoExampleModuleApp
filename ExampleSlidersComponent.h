@@ -13,12 +13,12 @@ public:
     explicit ExampleSlidersComponent(QObject *parent = nullptr);
 
 protected:
-    float m_valueOut1 = 0;
-    float m_valueOut2 = 0;
-    float m_valueIn1 = 0;
-    float m_valueIn2 = 0;
+    xoFloat m_valueOut1 = 0;
+    xoFloat m_valueOut2 = 0;
+    xoFloat m_valueIn1 = 0;
+    xoFloat m_valueIn2 = 0;
 
-    QString m_title = "Example sliders";
+    xoString m_title = "Example sliders";
 
 protected:
     void onCreate() override;
