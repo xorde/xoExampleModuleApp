@@ -60,7 +60,6 @@ void ExampleSlidersComponent::onCreate()
     connect(m_sliderOut2, &QSlider::valueChanged, [=](int value)
     {
         m_valueOut2 = value;
-        touchOutput("out2");
     });
 
     m_widget->setWindowFlag(Qt:: WindowStaysOnTopHint, true);
